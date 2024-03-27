@@ -1,0 +1,96 @@
+body{ 
+    
+    font-family: Arial, sans-serif;
+            background-image: radial-gradient(circle at 77% 87%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03)
+            8%,transparent 8%, transparent 100%),radial-gradient(circle at 82% 51%, rgba(0,0,0,0.01)
+            0%, rgba(0,0,0,0.01) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 66% 64%, rgba(0,0,0,0.03)
+            0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 23% 23%, rgba(0,0,0,0.03) 
+            0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 70% 29%, rgba(0,0,0,0.03) 
+            0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 11% 93%, rgba(0,0,0,0.01) 
+            0%, rgba(0,0,0,0.01) 5%,transparent 5%, transparent 100%),linear-gradient(135deg, rgb(222, 148, 235),rgb(92, 87, 253));
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200vh;
+        }
+
+         .athiya h1 {
+           text-transform: capitalize;
+            color: white;
+        }
+
+        .container {
+            background-image: radial-gradient(circle at 89% 58%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02)
+            3%,transparent 3%, transparent 100%),radial-gradient(circle at 7% 3%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            3%,transparent 3%, transparent 100%),radial-gradient(circle at 92% 81%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03)
+            3%,transparent 3%, transparent 100%),radial-gradient(circle at 41% 26%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 73% 97%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 99% 96%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 86% 13%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 82% 55%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 49% 70%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            7%,transparent 7%, transparent 100%),radial-gradient(circle at 23% 73%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 40% 71%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 61% 33%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 76% 73%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 73% 77%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 2% 25%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03)
+            5%,transparent 5%, transparent 100%),radial-gradient(circle at 85% 61%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01)
+            5%,transparent 5%, transparent 100%),linear-gradient(45deg, rgb(124, 32, 249),rgb(249, 194, 209));
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+            color: black;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: calc(100% - 16px);
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 16px;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #08807a;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        h2{
+            color: white;
+            text-transform: capitalize;
+        }
+
+    button:hover {
+        background-color: #8546c0;
+        text-align: center;
+        text-shadow: 0px 0px 10px rgb(181, 133, 244), 
+        0px 0px 20px rgb(137, 105, 211), 
+        0px 0px 40px rgb(82, 38, 135), 
+        0px 0px 60px rgb(32, 3, 82), 
+        0px 0px 80px rgb(36, 5, 59);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        animation: updown 1s infinite alternate
+    }
